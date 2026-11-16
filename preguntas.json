@@ -1,0 +1,27 @@
+[
+  {
+    "pregunta": "¿Qué protocolo de transporte es orientado a conexión y confiable?",
+    "opciones": ["UDP", "TCP", "ICMP", "ARP"],
+    "correcta": "B"
+  },
+  {
+    "pregunta": "¿Qué función del API de sockets deja al servidor esperando clientes?",
+    "opciones": ["bind()", "listen()", "accept()", "connect()"],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "¿Cuál es el puerto estándar de HTTPS?",
+    "opciones": ["80", "21", "25", "443"],
+    "correcta": "D"
+  },
+  {
+    "pregunta": "¿En qué universidad se crearon los sockets de Berkeley?",
+    "opciones": ["MIT", "Stanford", "Berkeley (California)", "Harvard"],
+    "correcta": "C"
+  },
+  {
+    "pregunta": "¿Qué mecanismo evita que dos hilos modifiquen un recurso a la vez?",
+    "opciones": ["Lock", "Socket", "Puerto", "Datagrama"],
+    "correcta": "A"
+  }
+]

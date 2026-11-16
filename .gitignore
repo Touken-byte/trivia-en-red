@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+*.bak
+*.bak[0-9]
+*.bak_*
+respaldo_*/
+fuentes/*.ttf
+.DS_Store

@@ -1,0 +1,524 @@
+{
+ "temas": {
+  "geografia": {
+   "nombre": "Geografía",
+   "preguntas": [
+    {
+     "pregunta": "¿Cuál es la capital de Australia?",
+     "opciones": [
+      "Sídney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+     ],
+     "correcta": "C"
+    },
+    {
+     "pregunta": "¿Cuál es el río más largo de Sudamérica?",
+     "opciones": [
+      "Amazonas",
+      "Orinoco",
+      "Paraná",
+      "Magdalena"
+     ],
+     "correcta": "A"
+    },
+    {
+     "pregunta": "¿Cuál es el desierto más grande de África?",
+     "opciones": [
+      "Gobi",
+      "Kalahari",
+      "Sahara",
+      "Atacama"
+     ],
+     "correcta": "C"
+    },
+    {
+     "pregunta": "¿Cuál es el lago navegable más alto del mundo?",
+     "opciones": [
+      "Poopó",
+      "Titicaca",
+      "Uyuni",
+      "Maracaibo"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "¿Cuál es la capital de Canadá?",
+     "opciones": [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Ottawa"
+     ],
+     "correcta": "D"
+    },
+    {
+     "pregunta": "¿Cuál es el océano más grande del planeta?",
+     "opciones": [
+      "Atlántico",
+      "Índico",
+      "Pacífico",
+      "Ártico"
+     ],
+     "correcta": "C"
+    }
+   ]
+  },
+  "ciencia": {
+   "nombre": "Ciencia",
+   "preguntas": [
+    {
+     "pregunta": "¿Cuál es el símbolo químico del oro?",
+     "opciones": [
+      "Ag",
+      "Au",
+      "Or",
+      "Gd"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+     "opciones": [
+      "Saturno",
+      "Neptuno",
+      "Urano",
+      "Júpiter"
+     ],
+     "correcta": "D"
+    },
+    {
+     "pregunta": "¿Cuántos huesos tiene el cuerpo humano adulto?",
+     "opciones": [
+      "206",
+      "212",
+      "198",
+      "250"
+     ],
+     "correcta": "A"
+    },
+    {
+     "pregunta": "¿Qué gas absorben las plantas para la fotosíntesis?",
+     "opciones": [
+      "Oxígeno",
+      "Nitrógeno",
+      "Hidrógeno",
+      "Dióxido de carbono"
+     ],
+     "correcta": "D"
+    },
+    {
+     "pregunta": "¿Cuál es la velocidad aproximada de la luz?",
+     "opciones": [
+      "150.000 km/s",
+      "300.000 km/s",
+      "30.000 km/s",
+      "3.000.000 km/s"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "¿Cuál es el órgano más grande del cuerpo humano?",
+     "opciones": [
+      "Hígado",
+      "Cerebro",
+      "Piel",
+      "Pulmones"
+     ],
+     "correcta": "C"
+    }
+   ]
+  },
+  "cine": {
+   "nombre": "Cine",
+   "preguntas": [
+    {
+     "pregunta": "¿Quién dirigió la película Titanic (1997)?",
+     "opciones": [
+      "Steven Spielberg",
+      "James Cameron",
+      "Ridley Scott",
+      "Christopher Nolan"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "¿Qué película surcoreana ganó el Óscar a Mejor Película en 2020?",
+     "opciones": [
+      "Roma",
+      "Joker",
+      "Parásitos",
+      "1917"
+     ],
+     "correcta": "C"
+    },
+    {
+     "pregunta": "¿Cómo se llama el villano de casco negro en Star Wars?",
+     "opciones": [
+      "Darth Vader",
+      "Kylo Ren",
+      "Darth Maul",
+      "Palpatine"
+     ],
+     "correcta": "A"
+    },
+    {
+     "pregunta": "¿De qué país es el Studio Ghibli?",
+     "opciones": [
+      "China",
+      "Corea del Sur",
+      "Tailandia",
+      "Japón"
+     ],
+     "correcta": "D"
+    },
+    {
+     "pregunta": "¿Qué actor interpreta a Jack Sparrow?",
+     "opciones": [
+      "Orlando Bloom",
+      "Johnny Depp",
+      "Brad Pitt",
+      "Tom Cruise"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "En El Rey León, ¿cómo se llama el hijo de Mufasa?",
+     "opciones": [
+      "Scar",
+      "Timón",
+      "Simba",
+      "Nala"
+     ],
+     "correcta": "C"
+    }
+   ]
+  },
+  "deportes": {
+   "nombre": "Deportes",
+   "preguntas": [
+    {
+     "pregunta": "¿Cuántos jugadores tiene un equipo de fútbol en la cancha?",
+     "opciones": [
+      "9",
+      "11",
+      "10",
+      "12"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "¿Qué selección ganó el Mundial de Fútbol de 2022?",
+     "opciones": [
+      "Francia",
+      "Brasil",
+      "Croacia",
+      "Argentina"
+     ],
+     "correcta": "D"
+    },
+    {
+     "pregunta": "¿Cuántos puntos vale un triple en baloncesto?",
+     "opciones": [
+      "2",
+      "4",
+      "3",
+      "1"
+     ],
+     "correcta": "C"
+    },
+    {
+     "pregunta": "¿En qué deporte se juega el torneo de Wimbledon?",
+     "opciones": [
+      "Golf",
+      "Squash",
+      "Bádminton",
+      "Tenis"
+     ],
+     "correcta": "D"
+    },
+    {
+     "pregunta": "¿Cada cuántos años se celebran los Juegos Olímpicos de verano?",
+     "opciones": [
+      "4",
+      "2",
+      "3",
+      "5"
+     ],
+     "correcta": "A"
+    },
+    {
+     "pregunta": "¿Qué deporte practica Usain Bolt?",
+     "opciones": [
+      "Natación",
+      "Atletismo",
+      "Boxeo",
+      "Ciclismo"
+     ],
+     "correcta": "B"
+    }
+   ]
+  },
+  "historia": {
+   "nombre": "Historia",
+   "preguntas": [
+    {
+     "pregunta": "¿En qué año llegó Cristóbal Colón a América?",
+     "opciones": [
+      "1453",
+      "1492",
+      "1521",
+      "1810"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "¿Qué civilización construyó Machu Picchu?",
+     "opciones": [
+      "Maya",
+      "Azteca",
+      "Inca",
+      "Olmeca"
+     ],
+     "correcta": "C"
+    },
+    {
+     "pregunta": "¿En qué año cayó el Muro de Berlín?",
+     "opciones": [
+      "1989",
+      "1991",
+      "1979",
+      "1961"
+     ],
+     "correcta": "A"
+    },
+    {
+     "pregunta": "¿Quién fue el primer presidente de Estados Unidos?",
+     "opciones": [
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "John Adams",
+      "George Washington"
+     ],
+     "correcta": "D"
+    },
+    {
+     "pregunta": "¿En qué año se declaró la independencia de Bolivia?",
+     "opciones": [
+      "1809",
+      "1810",
+      "1825",
+      "1900"
+     ],
+     "correcta": "C"
+    },
+    {
+     "pregunta": "¿Qué guerra terminó en 1945?",
+     "opciones": [
+      "Segunda Guerra Mundial",
+      "Primera Guerra Mundial",
+      "Guerra Fría",
+      "Guerra de Corea"
+     ],
+     "correcta": "A"
+    }
+   ]
+  },
+  "videojuegos": {
+   "nombre": "Videojuegos",
+   "preguntas": [
+    {
+     "pregunta": "¿Cómo se llama el fontanero de gorra roja de Nintendo?",
+     "opciones": [
+      "Mario",
+      "Luigi",
+      "Wario",
+      "Toad"
+     ],
+     "correcta": "A"
+    },
+    {
+     "pregunta": "¿Qué juego se basa en bloques cúbicos y tiene creepers?",
+     "opciones": [
+      "Roblox",
+      "Minecraft",
+      "Terraria",
+      "Fortnite"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "¿Cómo se llama la princesa a la que rescata Link?",
+     "opciones": [
+      "Peach",
+      "Zelda",
+      "Daisy",
+      "Samus"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "¿Qué empresa creó la consola PlayStation?",
+     "opciones": [
+      "Sony",
+      "Sega",
+      "Microsoft",
+      "Nintendo"
+     ],
+     "correcta": "A"
+    },
+    {
+     "pregunta": "¿Cuál es la mascota clásica de Sega?",
+     "opciones": [
+      "Crash",
+      "Pac-Man",
+      "Sonic",
+      "Spyro"
+     ],
+     "correcta": "C"
+    },
+    {
+     "pregunta": "¿Cuál es el Pokémon eléctrico más famoso?",
+     "opciones": [
+      "Charmander",
+      "Squirtle",
+      "Bulbasaur",
+      "Pikachu"
+     ],
+     "correcta": "D"
+    }
+   ]
+  },
+  "animales": {
+   "nombre": "Animales",
+   "preguntas": [
+    {
+     "pregunta": "¿Cuál es el animal terrestre más grande?",
+     "opciones": [
+      "Jirafa",
+      "Elefante",
+      "Rinoceronte",
+      "Hipopótamo"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "¿Cuántas patas tiene una araña?",
+     "opciones": [
+      "6",
+      "10",
+      "8",
+      "12"
+     ],
+     "correcta": "C"
+    },
+    {
+     "pregunta": "¿Cuál es el animal terrestre más rápido?",
+     "opciones": [
+      "Guepardo",
+      "León",
+      "Gacela",
+      "Caballo"
+     ],
+     "correcta": "A"
+    },
+    {
+     "pregunta": "¿Cuál es el mamífero más grande del mundo?",
+     "opciones": [
+      "Elefante",
+      "Orca",
+      "Tiburón ballena",
+      "Ballena azul"
+     ],
+     "correcta": "D"
+    },
+    {
+     "pregunta": "¿Qué ave no vuela y vive en zonas heladas del sur?",
+     "opciones": [
+      "Albatros",
+      "Cóndor",
+      "Pingüino",
+      "Gaviota"
+     ],
+     "correcta": "C"
+    },
+    {
+     "pregunta": "¿Cómo se llama la transformación de oruga a mariposa?",
+     "opciones": [
+      "Metamorfosis",
+      "Hibernación",
+      "Mutación",
+      "Migración"
+     ],
+     "correcta": "A"
+    }
+   ]
+  },
+  "informatica": {
+   "nombre": "Informática",
+   "preguntas": [
+    {
+     "pregunta": "¿Qué significa la sigla CPU?",
+     "opciones": [
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Central Program Utility",
+      "Core Processing Unit"
+     ],
+     "correcta": "A"
+    },
+    {
+     "pregunta": "¿Qué lenguaje se usa para estructurar páginas web?",
+     "opciones": [
+      "Python",
+      "HTML",
+      "SQL",
+      "C++"
+     ],
+     "correcta": "B"
+    },
+    {
+     "pregunta": "¿Qué puerto usa HTTPS por defecto?",
+     "opciones": [
+      "80",
+      "8080",
+      "443",
+      "21"
+     ],
+     "correcta": "C"
+    },
+    {
+     "pregunta": "¿Quién creó el kernel Linux?",
+     "opciones": [
+      "Bill Gates",
+      "Steve Jobs",
+      "Dennis Ritchie",
+      "Linus Torvalds"
+     ],
+     "correcta": "D"
+    },
+    {
+     "pregunta": "¿Qué protocolo de transporte garantiza entrega ordenada y fiable?",
+     "opciones": [
+      "TCP",
+      "UDP",
+      "IP",
+      "ICMP"
+     ],
+     "correcta": "A"
+    },
+    {
+     "pregunta": "¿Cuántos bits tiene un byte?",
+     "opciones": [
+      "4",
+      "16",
+      "8",
+      "32"
+     ],
+     "correcta": "C"
+    }
+   ]
+  }
+ }
+}
