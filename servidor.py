@@ -1,9 +1,11 @@
+import os
 import random
 import socket
 import sys
 import threading
 import time
 from collections import deque
+from contextlib import nullcontext
 
 from rich.console import Console, Group
 from rich.layout import Layout
@@ -15,7 +17,7 @@ from rich.text import Text
 from protocolo import enviar_msg, LectorMensajes
 import juego
 
-HOST = "0.0.0.0"
+HOST = os.environ.get("TRIVIA_HOST", "0.0.0.0")
 PORT = 8080
 SEGUNDOS_POR_PREGUNTA = 20
 SEGUNDOS_TEMA = 8                # duración de la animación de la ruleta en el navegador
@@ -469,8 +471,9 @@ def main():
 
     contador = 0
     try:
-        with Live(get_renderable=armar_pantalla, console=console,
-                  screen=True, refresh_per_second=8):
+        panel = console.is_terminal and not os.environ.get("SIN_PANEL")
+        with (Live(get_renderable=armar_pantalla, console=console,
+                   screen=True, refresh_per_second=8) if panel else nullcontext()):
             while True:
                 clientsocket, address = serversocket.accept()
                 contador += 1

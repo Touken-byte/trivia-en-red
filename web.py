@@ -1,10 +1,10 @@
-import json, queue, socket, threading
+import json, os, queue, socket, threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse, parse_qs
 from protocolo import enviar_msg, LectorMensajes
 
 TRIVIA = ("127.0.0.1", 8080)
-WEB_PORT = 8000
+WEB_PORT = int(os.environ.get("PORT", "8000"))
 PERMITIDOS = {"crear", "unirse", "iniciar", "respuesta", "chat"}
 sesiones = {}
 lock = threading.Lock()
@@ -54,6 +54,7 @@ class H(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-Type", "text/event-stream")
         self.send_header("Cache-Control", "no-cache")
+        self.send_header("X-Accel-Buffering", "no")
         self.end_headers()
         try:
             while True:
